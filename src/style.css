@@ -28,9 +28,16 @@ ul {
   font-weight: bold;
 }
 .units {
+  position: relative;
   font-size: 16px;
   top: -30px;
+  color: black;
+  font-weight: lighter;
 }
+a.none {
+  text-decoration: none;
+}
+
 .main-icon {
   font-size: 120px;
 }
@@ -43,7 +50,7 @@ ul {
   font-weight: bold;
 }
 .weather {
-  font-size: 25px;
+  font-size: 20px;
   color: #a7bcb9;
   font-weight: bold;
 }
