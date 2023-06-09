@@ -49,8 +49,9 @@ a.none {
   color: #24527a;
   font-weight: bold;
 }
-.weather {
+.description {
   font-size: 20px;
+  text-transform: capitalize;
   color: #a7bcb9;
   font-weight: bold;
 }
