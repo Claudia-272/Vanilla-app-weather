@@ -10,6 +10,7 @@ ul {
   border: solid 2px #5dacbd;
   border-radius: 10px;
   background-color: #5dacbd;
+  color: white;
 }
 .container {
   display: block;

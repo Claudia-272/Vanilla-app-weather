@@ -15,22 +15,21 @@
 
   <body>
     <div class="container">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <form class="d-flex" id="search-form" role="search">
-            <input
-              class="form-control shadow-sm me-2"
-              type="search"
-              placeholder="Enter a city"
-              autofocus="on"
-              id="city-input"
-            />
-            <button class="search">
-              <input class="form-control btn" type="submit" value="Search" />
-            </button>
-          </form>
-        </div>
-      </nav>
+      <div class="container-fluid">
+        <form id="search-form" class="d-flex" role="search">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            class="form-control shadow-sm me-4"
+            autofocus="on"
+            id="city-input"
+          />
+          <button class="search">
+            <input type="submit" value="Search" class="form-control btn" />
+          </button>
+        </form>
+      </div>
+
       <div class="container text-center info-weather">
         <div class="row align-items-center">
           <div class="col today-temperature">
