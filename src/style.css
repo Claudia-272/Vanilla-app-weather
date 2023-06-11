@@ -38,9 +38,6 @@ a.none {
   text-decoration: none;
 }
 
-.main-icon {
-  font-size: 120px;
-}
 .info-details {
   font-weight: 500;
 }
@@ -67,9 +64,6 @@ a.none {
   padding: 5px 40px;
 }
 
-.icon-weather {
-  font-size: 30px;
-}
 .temperature {
   font-size: 18px;
   color: #24527a;
