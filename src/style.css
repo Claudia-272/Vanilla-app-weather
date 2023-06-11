@@ -35,8 +35,18 @@ ul {
   color: black;
   font-weight: lighter;
 }
+
+.active {
+  color: black;
+  cursor: default;
+}
+
 a.none {
   text-decoration: none;
+}
+
+.main-icon {
+  width: 150px;
 }
 
 .info-details {
