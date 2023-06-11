@@ -6,6 +6,11 @@ ul {
   list-style: none;
   text-align: left;
 }
+
+.weather-app {
+  margin: 100px auto;
+}
+
 .search {
   border: solid 2px #5dacbd;
   border-radius: 10px;
@@ -17,8 +22,9 @@ ul {
   margin: 20px auto;
   max-width: 650px;
   background: #e0ebeb;
-  padding: 8px;
+  padding: 20px;
   border-radius: 5px;
+  box-shadow: 0px 30px 50px #acb3b5;
 }
 .info-weather {
   box-shadow: 0px 0px 5px #5dacbd;

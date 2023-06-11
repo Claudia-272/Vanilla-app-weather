@@ -14,66 +14,67 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="container-fluid">
-        <form id="search-form" class="d-flex" role="search">
-          <input
-            type="search"
-            placeholder="Enter a city"
-            class="form-control shadow-sm me-4"
-            autofocus="on"
-            id="city-input"
-          />
-          <button class="search">
-            <input type="submit" value="Search" class="form-control btn" />
-          </button>
-        </form>
-      </div>
+    <div class="weather-app">
+      <div class="container">
+        <div class="container-fluid">
+          <form id="search-form" class="d-flex" role="search">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              class="form-control shadow-sm me-4"
+              autofocus="on"
+              id="city-input"
+            />
+            <button class="search">
+              <input type="submit" value="Search" class="form-control btn" />
+            </button>
+          </form>
+        </div>
 
-      <div class="container text-center info-weather">
-        <div class="row align-items-center">
-          <div class="col">
-            <span class="today-temperature" id="temperature"></span
-            ><span class="units">
-              <a class="none active" href="#" id="celsius-link">°C </a> |
-              <a class="none" href="#" id="fahrenheit-link">°F</a></span
-            >
-          </div>
-          <div class="col">
-            <img src="" alt="" class="main-icon" id="icon" />
-          </div>
-          <div class="col">
-            <ul class="info-details">
-              <li id="city" class="city"></li>
-              <li id="description" class="description"></li>
-              <li>
-                Humidity:
-                <span id="humidity"></span>
-                %
-              </li>
-              <li>
-                Wind:
-                <span id="wind"></span>
-                km/h
-              </li>
-            </ul>
+        <div class="container text-center info-weather">
+          <div class="row align-items-center">
+            <div class="col">
+              <span class="today-temperature" id="temperature"></span
+              ><span class="units">
+                <a class="none active" href="#" id="celsius-link">°C </a> |
+                <a class="none" href="#" id="fahrenheit-link">°F</a></span
+              >
+            </div>
+            <div class="col">
+              <img src="" alt="" class="main-icon" id="icon" />
+            </div>
+            <div class="col">
+              <ul class="info-details">
+                <li id="city" class="city"></li>
+                <li id="description" class="description"></li>
+                <li>
+                  Humidity:
+                  <span id="humidity"></span>
+                  %
+                </li>
+                <li>
+                  Wind:
+                  <span id="wind"></span>
+                  km/h
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div>
-        <button id="date" class="date"></button>
-      </div>
+        <div>
+          <button id="date" class="date"></button>
+        </div>
 
-      <small class="footer"
-        ><a
-          href="https://github.com/Claudia-272/Vanilla-app-weather"
-          target="_blank"
-          >Open-source code</a
-        >, by Cláudia Coelho</small
-      >
+        <small class="footer"
+          ><a
+            href="https://github.com/Claudia-272/Vanilla-app-weather"
+            target="_blank"
+            >Open-source code</a
+          >, by Cláudia Coelho</small
+        >
+      </div>
     </div>
-
     <script src="src/app.js"></script>
   </body>
 </html>
